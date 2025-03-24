@@ -15,8 +15,7 @@ from datetime import datetime, timedelta
 # Load environment variables
 load_dotenv()
 
-# Initialize Gemini AI
-# genai.configure(api_key="AIzaSyDHT0BrqV0fz_yvmRwuO5UjXSHXNhEAjGw") 
+
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-pro-latest")
@@ -24,8 +23,7 @@ model = genai.GenerativeModel("gemini-1.5-pro-latest")
 
 supabase_url = os.getenv("SUPABASE_URL")
 supabase_key = os.getenv("SUPABASE_KEY")
-# supabase_url = "https://vazsgsbbsilrnwmidbix.supabase.co"
-# supabase_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZhenNnc2Jic2lscm53bWlkYml4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI3MDMzNTAsImV4cCI6MjA1ODI3OTM1MH0.c9TZTih9b44tTh9rIqq_ca2czouDS9ik_eHM-_T_DNs"
+
 supabase_client = supabase.create_client(supabase_url, supabase_key)
 
 # Gmail API scopes
