@@ -1,6 +1,6 @@
 ﻿# email-autmation
 
- # existiting customer
+ # existing customer
 ![Image](https://github.com/user-attachments/assets/05a097a2-0641-404a-9424-b2aac0d9dc5c)
 ![Image](https://github.com/user-attachments/assets/a9a6985f-107b-411d-a863-34780b26edf9)
 ![Image](https://github.com/user-attachments/assets/ef772d27-773d-4d09-be8f-da1eec658f58)
